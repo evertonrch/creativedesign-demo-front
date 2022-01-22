@@ -1,3 +1,4 @@
+/* COMMON STYLES */
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,700;1,400&family=Monoton&family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 
 * {
@@ -14,3 +15,50 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    overflow-x: hidden;
+}
+/* END COMMON STYLES*/
+
+/* SECTION 1 */
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+
+.float-bg {
+    width: 140vw;
+    height: 140vw;
+    background-color: rgba(50, 231, 255, .8);
+    position: absolute;
+    top: -240%;
+    left: calc(50% - 70vw);
+    border-radius: 45%;
+    animation: rotate 30s infinite;
+}
+
+.float-bg::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 231, 255, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40%;
+    animation: rotate 30s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }    
+}
+/* END SECTION 1*/
