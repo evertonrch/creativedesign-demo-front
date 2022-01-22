@@ -66,14 +66,43 @@ header {
 .navbar {
     position: relative;
     z-index: 20;
-    top: 6rem;
+    top: 2rem;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid red;
 }
 
 .navbar-link {
-    
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    width: 1.2rem;
+    word-wrap: break-word;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.navbar-link:hover {
+    width: 15rem;
+    background-color: rgba(255, 255, 255, .2);
+    transition: all 2.5s;
+}
+
+.heading {
+    font-size: 7rem;
+    font-family: "Monoton", cursive;
+    position: absolute;
+    top: 18vw;
+    left: 49%;
+    transform: translate(-50%);
+    text-shadow: 0.3rem 0.3rem 0.3rem #888;
+    color: #fff;
+    background-color: #fff;
+    width: 80rem;
+    text-align: center;
+    padding: 0.8rem 1.6rem;
+    border-radius: .8rem;
+    opacity: 0.8;
 }
 /* END NAVBAR LINKS */
 /* END NAVBAR*/
