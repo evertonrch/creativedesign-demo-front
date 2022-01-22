@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,700;1,400&family=Monoton&family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+    font-family: "Bellota text", cursive;
+    font-weight: 400;    
+}
+
+html {
+    font-size: 62.5%;
+}
