@@ -1,6 +1,10 @@
 /* COMMON STYLES */
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,700;1,400&family=Monoton&family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 
+:root {
+    --color-main: rgba(50, 231, 255, .8);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +36,7 @@ header {
 .float-bg {
     width: 140vw;
     height: 140vw;
-    background-color: rgba(50, 231, 255, .8);
+    background-color: var(--color-main);
     position: absolute;
     top: -240%;
     left: calc(50% - 70vw);
@@ -116,7 +120,7 @@ header {
 
 .logo i {
     font-size: 15rem;
-    color: rgba(50, 231, 255, .8);
+    color: var(--color-main);
     text-shadow: .9rem .6rem .1rem #ddd,
     -.1rem -.1rem 0.2rem #ddd;
 }
