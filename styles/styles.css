@@ -105,5 +105,21 @@ header {
     opacity: 0.8;
 }
 /* END NAVBAR LINKS */
+
+/* lOGO */
+.logo {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.logo i {
+    font-size: 15rem;
+    color: rgba(50, 231, 255, .8);
+    text-shadow: .9rem .6rem .1rem #ddd,
+    -.1rem -.1rem 0.2rem #ddd;
+}
+/* END LOGO */
 /* END NAVBAR*/
 
