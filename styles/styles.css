@@ -221,7 +221,7 @@ header {
 
 /* SECTION 2 */
 .section-2 .section-heading {
-    margin: 15rem 0 10rem 0;
+    margin: 15rem 0 16rem 0;
 }
 
 
@@ -248,7 +248,22 @@ header {
         1rem 1rem 2rem #ddd,
         -1rem -1rem 2rem #eee;
     position: relative;
+    opacity: .6;
+    transition: opacity .6s;
 }
+
+.team-member:hover {
+    opacity: 1;
+}
+
+.team-member:first-child {
+    align-self: flex-end;
+}
+
+.team-member:last-child {
+    align-self: flex-start;
+}
+
 .team-img {
     width: 100%;
     border-radius: .5rem;
@@ -298,6 +313,11 @@ header {
     padding: .3rem;
     cursor: pointer;
     z-index: 65;
+    transition: transform 0.5s;
+}
+
+.story-btn.change {
+    transform: rotate(405deg);
 }
 
 .story-btn-line {
@@ -319,6 +339,14 @@ header {
     justify-content: center;
     padding: 2rem;
     transform: scale(0);
+    transform-origin: top right;
+    border-radius: 50rem 0 50rem 50rem;
+    transition: all 0.5s;
+}
+
+.story.change {
+    transform: scale(1);
+    border-radius: 0;
 }
 
 .story-heading {
