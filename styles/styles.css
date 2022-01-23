@@ -468,5 +468,24 @@ header {
     color: #444;
     margin-top: 8rem;
 }
-
 /* END SECTION 3 */
+
+.scroll-up-btn {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(50,231,255,.8);
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .3s;
+}
+
+.scroll-up-btn:hover {
+    background-color: #32e7ff;
+}
