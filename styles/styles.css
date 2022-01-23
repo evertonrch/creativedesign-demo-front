@@ -401,7 +401,13 @@ header {
     box-shadow: -3rem 3rem 4rem #aaa;
     border-radius: .5rem;
     opacity: .8;
-    transform: rotateY(20deg);    
+    transform: rotateY(20deg);  
+    transition: all .5s;  
+}
+
+.form-img:hover {
+    transform: translateY(-2rem) rotateY(20deg);
+    box-shadow: -5rem 5rem 7rem #aaa;
 }
 
 .contact-form {
@@ -412,7 +418,13 @@ header {
     padding: 3rem;
     border-radius: .7rem;
     box-shadow: 3rem 3rem 4rem #aaa;
-    transform: rotateY(-20deg);    
+    transform: rotateY(-20deg);
+    transition: all .5s;    
+}
+
+.contact-form:hover {
+    transform: translateY(-2rem) rotateY(-20deg);
+    box-shadow: 5rem 5rem 7rem #aaa;
 }
 
 .contact-form input,
@@ -447,6 +459,13 @@ header {
 
 .contact-form button:hover {
     background-color: #32e7ff;
+}
+
+.copyright {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    color: #444;
+    margin-top: 8rem;
 }
 
 /* END SECTION 3 */
